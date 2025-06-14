@@ -1,0 +1,56 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+thead {
+  background: #002b80;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+th,td {
+  padding: 15px;
+}
+ 
+td{
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+th.sales, td.sales {
+  text-align: right;
+}
+
+tr[data-status="high"] {
+  background-color: #e6ffe6;
+  color: green;
+  font-weight: bold;
+}
+
+tr[data-status="low"] {
+  background-color: #ffe6e6;
+  color: red;
+  font-style: italic;
+}
+
+tfoot tr, tfoot td{
+  background: #002b80;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+}
+
+tr.top-sales td:first-child::before {
+  content: "[Top Sales] ";
+  font-weight: bold;
+  color: green;
+}

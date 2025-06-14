@@ -1,0 +1,45 @@
+footer{
+    background: linear-gradient(45deg,#444444,#232323);
+    display: flex;
+}
+
+footer a:link, footer a:visited{
+    color: #777;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+footer section{
+    flex: 1;
+    margin: 30px 10px;
+}
+
+footer ul{
+    padding-left: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer header h2{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+footer img{
+    width: 150px;
+}
+
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-section p{
+    color: rgba(255, 255, 255, 0.3);
+}
